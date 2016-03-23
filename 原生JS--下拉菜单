@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>无标题文档</title>
+<style>
+ul{margin:0;padding:0;}
+li{list-style-type:none;}
+a{text-decoration:none;}
+.lis{width:80px;height:30px;position:relative;}
+.lis a{display:block;line-height:30px;text-align:center;background:#f1f1f1;}
+ul  ul{width:140px;position:absolute;top:30px;left:-1px;display:none;background:yellow;}
+</style>
+</head>
+
+<body>
+  <ul>
+    <li id="lis" class="lis"><a style="background: rgb(241, 241, 241) none repeat scroll 0% 0%;" id="link" href="#">微博</a>
+      <ul style="display: none;" id="ul1">
+        <li style="background: yellow none repeat scroll 0% 0%;" id="link2"><a href="#">私信</a></li> 
+        <li id="link2"><a href="#">评论</a></li>
+        <li id="link2"><a href="#">@我</a></li>
+      </ul>
+      <script>
+	  window.onload=abc;
+	  function abc(){
+	  var li=document.getElementById('lis');
+	  var ul=document.getElementById('ul1');
+	  var a=document.getElementById('link');
+      li.onmouseover=show;
+	  li.onmouseout=hide;
+	  
+	  function show(){
+		  ul.style.display='block';
+		  
+		  a.style.background='yellow';
+		  document.getElementById('link2').style.background='yellow';
+		  }
+		  
+	  function hide(){
+		  ul.style.display='none';
+		  a.style.background='#f1f1f1';
+		  
+		  }
+	  }
+      </script>
+    </li>
+  </ul>
+
+
+</body></html>
