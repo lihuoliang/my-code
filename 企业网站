@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>慕课网企业网站</title>
+<link href="index160215_files/main160215.css" rel="stylesheet" type="text/css">
+<script src="index160215_files/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+<script src="index160215_files/myfocus-2.js" type="text/javascript"></script>
+<script src="index160215_files/mF_fancy.js" type="text/javascript"></script>
+<link href="index160215_files/mF_fancy.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+myFocus.set({id:'picBox'});
+<style>
+@charset "utf-8";
+*{margin:0;padding:0;font-size:12px;}
+
+body{background-color: #F5F5F5;}
+
+#top{width:100%;background:url(../images/top_bg.jpg) repeat-x;height:27px;}
+.top_content{width:1000px;margin:0 auto;line-height:27px;}
+.top_content li{float:right;width:70px;list-style-image:url(../images/arrow.jpg);}
+.top_content li a{font-size:12px;color:#999;text-decoration:none;}
+.top_content li a:hover{color:#c00;}
+
+#wrap{width:1000px;margin:0 auto;}
+.logo{height:80px;background:#fff;}
+.logo_left{float:left;width:375px;dispaly:inline}
+.logo_right{width:300px;height:28px;float:right;margin-top:30px;font-size:12px;color:#999;display:inline;color:#8e8e8e;}
+.logo_right img{vertical-align:middle;margin-right:10px;}
+.tel{font-size:22px;color:#c00;font-family:"微软雅黑"；}
+
+.nav{height:40px;}
+.nav_left{width:10px;height:40px;background:url(../images/nav_left.jpg) no-repeat;float:left;}
+.nav_mid{width:980px;height:40px;background:url(../images/nav_bg.jpg) repeat-x;float:left;}
+.nav_right{width:10px;height:40px;background:url(../images/nav_right.jpg) no-repeat;float:left;}
+.nav_mid_left{width:680px;float:left;}
+.nav_mid_right{width:300px;float:left;}
+.nav_mid_left li{float:left;list-style:none;width:100px;text-align:center;line-height:40px;}
+.nav_mid_left a:link,.nav_mid_left a:visited{text-decoration:none;font-size:16px;color:white;font-family:"微软雅黑"}
+.nav_mid_left a:hover,.nav_mid_left a:active{text-decorat ion:none;font-size:16px;color:yellow;font-family:"微软雅黑"}
+.search_text{width:190px;height:30px;margin-top:5px;background:url(../images/search.jpg) no-repeat right center;background-color:white;              padding-right:25px;border:1px solid white;}
+
+.ad{height:310px;overflow:hidden;margin-top:5px;}
+
+.main{height:250px;background:white;margin-top:5px;}
+
+.news{width:340px;border:1px solid #e8e8e8}
+.title{height:35px;border-bottom:2px solid #e8e8e8;}
+.title_left{width:70%;color:#999;float:left;line-height:35px;padding-left:20px;font-size:14px;font-family:"微软雅黑";font-weight:bold;}
+.title_right{width:20%;line-height:35px;float:right;/*text-indent:20px;*/text-align:right;}
+.title_right a{font-size:10px;color:#999;text-decoration:none;padding-right:10px;}
+
+.pic_news{margin-top:10px;margin-left:5px;height:80px;}
+.pic_news img,.course_pic img{float:left;padding-right:5px;}
+.pic_news h2,.course_pic h2{font-size:12px;color:#c00;font-family:"微软雅黑";font-weight:bold}
+.pic_news p,.course_pic p{font-size:12px;font-family:"微软雅黑";line-height:24px;}
+.pic_news p a{color:#c00;text-decoration:none;}
+
+.news_list{margin-top:20px;margin-left:5px;}
+.news_list li{background:url(../images/list.jpg) 0 2px no-repeat;list-style:none;border-bottom:1px dotted #CCC;padding-left:5px;margin:8px 0px;}
+.news_list li a{text-decoration:none;font-size:12px;color:black;}
+.news_list li a:hover{color:#c00;}
+.news_list li span{color:#999;font-size:12px;float:right;}
+
+
+
+
+.course{width:410px;border:1px solid #e8e8e8;margin:0 7px}
+.sidebar{width:230px;}
+.news,.course,.sidebar{height:250px;float:left;}
+.course_pic{margin:5px 0 0 5px;}
+.course_pic img{width:160px;height:108px;}
+
+.course_type{width:372px;height:37px;background:url(../images/product_type_bg.jpg) no-repeat;margin:20px auto;}
+.course_type ul{line-height:37px;
+}
+.course_type li{float:left;list-style-type:none;text-aglin:center;margin:0 15px;font-size:12px;}
+
+.video{height:185px;border:1px solid #e8e8e8;}
+.video_content{height:150px;}
+.sidebar_ad{height:55px;border:1px solid #e8e8e8;margin-top:10px;}
+
+.copyright{width:100%;/*overflow:hidden;*/background:#e8e8e8;margin-top:10px;height:200px;}
+.copyright_content{width:1000px;margin:0 auto;padding-top:20px;}
+.copyright_content li{float:left;width:200px;list-style-type:none;background:url(../images/line.png) no-repeat right center;text-align:center;line-height:30px;font-family:"微软雅黑";}
+.copyright_content li a{text-decoration:none;color:#999;font-size:18px;}
+.copyright_content li ul li a{font-size:14px;}
+
+</style>
+</script>
+
+</head>
+
+<body>
+  <div id="top">
+    <div class="top_content">
+      <ul>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">加入收藏</a></li>
+        <li><a href="#">设为首页</a></li>
+      </ul>
+    </div>      
+    </div>
+  
+  <div id="wrap">
+    <div class="logo">
+      <div class="logo_left"><img src="index160215_files/logo.jpg"></div>
+      <div class="logo_right"><img src="index160215_files/tel.jpg" width="28" height="28">24小时服务热线：<span class="tel">123-456-7890</span></div>
+    </div>
+    <!--logo结束-->
+    <div class="nav">
+      <div class="nav_left"></div>
+      <div class="nav_mid">
+        <div class="nav_mid_left">
+          <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于慕课</a></li>
+            <li><a href="#">新闻动态</a></li>
+            <li><a href="#">课程中心</a></li>
+            <li><a href="#">在线课程</a></li>
+            <li><a href="#">人才招聘</a></li>
+          </ul>
+        </div>
+        <div class="nav_mid_right">
+          <form action="" method="post">
+            <input class="search_text" type="text">
+          </form>
+        </div>
+      </div>
+      <div class="nav_right"></div>
+    </div><!--导航结束-->
+    <div class="mF_fancy_wrap"><div style="height: 322px;" class="ad mF_fancy mF_fancy_picBox" id="picBox">
+      
+      <div class="pic">
+        <ul style="width: 250px; z-index: 4;">
+          <li style="display: none;"><img src="index160215_files/ad2.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad3.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad4.jpg"></li>
+          <li style="display: block;"><img src="index160215_files/ad3.jpg"></li>
+        </ul>
+      
+        <ul style="width: 500px; z-index: 3;">
+          <li style="display: none;"><img src="index160215_files/ad2.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad3.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad4.jpg"></li>
+          <li style="display: block;"><img src="index160215_files/ad3.jpg"></li>
+        </ul>
+      
+        <ul style="width: 750px; z-index: 2;">
+          <li style="display: none;"><img src="index160215_files/ad2.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad3.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad4.jpg"></li>
+          <li style="display: block;"><img src="index160215_files/ad3.jpg"></li>
+        </ul>
+      
+        <ul style="width: 1000px; z-index: 1;">
+          <li style="display: none;"><img src="index160215_files/ad2.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad3.jpg"></li>
+          <li style="display: none;"><img src="index160215_files/ad4.jpg"></li>
+          <li style="display: block;"><img src="index160215_files/ad3.jpg"></li>
+        </ul>
+      </div>
+    <div class="txt">
+      <ul>
+        <li class=""><p>null</p><b></b></li>
+        <li class=""><p>null</p><b></b></li>
+        <li class=""><p>null</p><b></b></li>
+        <li class="current"><p>null</p><b></b></li>
+      </ul>
+    </div>
+    <div class="num">
+      <ul>
+        <li class="" style="width: 249px;"><a>1</a><b></b></li>
+        <li class="" style="width: 249px;"><a>2</a><b></b></li>
+        <li class="" style="width: 249px;"><a>3</a><b></b></li>
+        <li class="current" style="width: 250px;"><a>4</a><b></b></li>
+      </ul>
+    </div>
+    <div class="thumb">
+      <ul>
+        <li class="" style="width: 250px; top: 0px; visibility: hidden; display: none; opacity: 0;"><a><img src="index160215_files/ad2.jpg"></a><b></b></li>
+        <li class="" style="width: 250px; top: 0px; visibility: hidden; display: none; opacity: 0;"><a><img src="index160215_files/ad3.jpg"></a><b></b></li>
+        <li style="width: 250px; top: 0px; visibility: hidden; display: none; opacity: 0;"><a><img src="index160215_files/ad4.jpg"></a><b></b></li>
+        <li style="width: 250px;"><a><img src="index160215_files/ad3.jpg"></a><b></b></li>
+      </ul>
+    </div>
+    <div class="prev">
+    <a href="javascript:;">‹</a>
+    </div>
+    <div class="next">
+    <a href="javascript:;">›</a>
+    </div>
+    </div>
+    </div><!--焦点图制作-->
+  <div class="main">
+    <div class="news">
+      <div class="title">
+        <h2 class="title_left">新闻中心</h2>
+        <span class="title_right"><a href="#">More&gt;&gt;</a></span>
+      </div>
+      <div class="pic_news">
+        <img src="index160215_files/news.jpg">
+        <h2>520 慕女神喊你来表白!</h2>
+        <p>活动时间：5月20日—5月25日<br>
+获奖公布时间：5月26日<br>
+<a href="#">Learn More&gt;&gt;</a></p>
+      </div>
+      <div class="news_list">
+        <ul>
+          <li><a href="#">【慕客访谈 用户篇】“有为屌丝”在路上</a><span>2014-06-01</span></li>
+          <li><a href="#">【有奖活动】给父亲的三行书信</a><span>2014-06-01</span></li>
+          <li><a href="#">《程序猿，请晒出你的童年》活动获奖公告</a><span>2014-06-01</span></li>
+          <li><a href="#">【慕课访谈】破茧成蝶——美女程序员的蜕变史</a><span>2014-06-01</span></li>
+        </ul>
+      </div> 
+    </div>
+    <div class="course">
+      <div class="title">
+        <h2 class="title_left">课程中心</h2>
+        <span class="title_right"><a href="#">More&gt;&gt;</a></span>
+      </div>
+      <div class="course_pic">
+        <img src="index160215_files/css.jpg" width="158" height="106">
+        <h2>CSS圆角进化论</h2>
+        <p>CSS圆角的实现，经历了三大发展阶段：背景图片方式、CSS2.0+HTML标签模拟、CSS3.0圆角属性）。本案例详细讲解每一种的实现方式，并对实现的优缺点进行对比分析。</p>
+      </div>
+      <div class="course_type">
+        <ul>
+          <li>PHP开发</li>
+          <li>前端开发</li>
+          <li>JAVA开发</li>
+          <li>Andriod</li>
+        </ul>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="video">
+        <div class="title">
+          <h2 class="title_left">媒体聚焦</h2>
+          <span class="title_right"><a href="#">More&gt;&gt;</a></span>
+        </div>
+        <div class="video_content">
+          <embed src="index160215_files/v.swf" quality="high" allowscriptaccess="always" allowfullscreen="true" mode="transparent" type="application/x-shockwave-flash" align="middle" width="220" height="140">
+        </div>
+      </div>
+      <div class="sidebar_ad">
+        <img src="index160215_files/app.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <div class="copyright_content">
+    <ul>
+      <li><a href="#">关于</a>
+        <ul>
+          <li><a href="#">品牌故事</a></li>
+          <li><a href="#">联系我们</a></li>
+          <li><a href="#">加入我们</a></li>
+          <li><a href="#">版权声明</a></li>
+        </ul>
+      </li>
+      <li><a href="#">课程</a>
+        <ul>
+          <li><a href="#">PHP开发</a></li>
+          <li><a href="#">前端开发</a></li>
+          <li><a href="#">JAVA开发</a></li>
+          <li><a href="#">Android开发</a></li>
+        </ul>
+      </li>
+      <li><a href="#">关注</a>
+        <ul>
+          <li><a href="#">新浪微博</a></li>
+          <li><a href="#">腾讯微博</a></li>
+          <li><a href="#">企业微信</a></li>
+          <li><a href="#">QQ空间</a></li>
+        </ul>
+      </li>
+      <li><a href="#">留言</a>
+        <ul>
+          <li><a href="#">意见反馈</a></li>
+          <li><a href="#">问题留言</a></li>
+          <li><a href="#">媒体联络</a></li>
+          <li><a href="#">在线客服</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><img src="index160215_files/weixin.png">微信关注</a>
+        <ul>
+          <li><img src="index160215_files/qrcode.jpg"></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>  
+
+
+</body></html>
