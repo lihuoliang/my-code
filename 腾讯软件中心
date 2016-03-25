@@ -14,7 +14,6 @@ h2 span{float:right;}
 h2 span a{font-size:12px; font-weight:normal;}
 
 #wrap{width:910px; margin:0 auto;}
-
 #header,#mainbody{width:100%; overflow:hidden; margin-bottom:10px;}
 
 .logo{width:100%; margin-top:5px;overflow:hidden;}
