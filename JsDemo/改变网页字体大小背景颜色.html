@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script>
+window.onload=function (){
+	var oBtn1=document.getElementById('btn1');
+	var oBtn2=document.getElementById('btn2');
+	var oP=document.getElementById('p1');
+	var oBtn3=document.getElementById('btn3');
+	var oBtn4=document.getElementById('btn4');
+	var num=16;
+	oBtn1.onclick=function(){
+		num=num-1;
+		oP.style.fontSize=num+'px';
+		};
+	oBtn2.onclick=function(){
+		num=num+1;
+		//num+=1;
+		//num++;
+		//alert(num);
+		oP.style.fontSize=num+'px';
+		};
+	oBtn3.onclick=function (){
+		/*oP.style.background='red';
+		oP.style.width='500px';
+		oP.style.color='yellow';
+		oP.style.border='10px solid #f1f1f1';
+		oP.style.padding='20px';*/
+		oP.className='red';
+		};
+	oBtn4.onclick=function (){
+		/*oP.style.background='yellow';
+		oP.style.width='300px';
+		oP.style.color='red';
+		oP.style.border='10px solid #f1f1f1';
+		oP.style.padding='20px';*/
+		oP.className='yellow';
+		};
+};
+
+</script>
+<style>
+.red{background:red;width:500px;border:10px solid #f1f1f1;padding:20px;color:yellow;}
+.yellow{background:yellow;width:300px;border:10px solid #f1f1f1;padding:20px;color:red;}
+</style>
+</head>
+
+<body>
+<input id="btn1" type="button" value="-" />
+<input id="btn2" type="button" value="+" />
+<input id="btn3" type="button" value="红" />
+<input id="btn4" type="button" value="黄" />
+
+<p id="p1" >我国首艘自航式浮船坞“华船一号”日前成功在珠江口对某型军舰进行了模拟“战场”修理。这标志人民海军已具备了成熟的离岸外海修理战舰能力，实现了大型战舰岸基定点修理向远海机动保障突破。</p>
+</body>
+</html>

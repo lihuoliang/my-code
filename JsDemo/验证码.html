@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>验证码</title>
+<script>
+window.onload=function(){
+	var oText=document.getElementById('text1');
+	var oBtn=document.getElementById('btn');
+	oBtn.onclick=function(){
+	if(oText.value==''){
+		alert('不好意思，大侠你什么都没写就想过关？~~')
+   		
+		} else if(oText.value=='CSS'){
+			alert('大侠，恭喜进入下一关')
+		} else if(oText.value=='HTML'){
+			alert('大侠，恭喜进入下一关')
+		} else if(oText.value=='JS'){
+			alert('大侠，恭喜进入下一关')
+		} else {
+			alert('不好意思，大侠您输入的是:'+oText.value+'过不了关..')
+			};
+			
+	}
+	};
+</script>
+</head>
+
+<body>
+
+    通关口诀：
+    <input id="text1" type="text" />
+    <input id="btn" type="button" value="验证"/>
+    
+    <p>（通关口诀HTML/CSS/JS）</p>
+
+</body>
+</html>

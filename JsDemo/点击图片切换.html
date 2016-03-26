@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>判断语句(创造条件实行判断)</title>
+</head>
+
+<body>
+<img id="img1" src="img/4.jpg" width="200" />
+<script>
+var oImg=document.getElementById('img1');
+var onOff=true;//没有创条件做判断语句，就创造一个 '开关'：布尔值：true 真 1---false 假 0
+
+oImg.onclick=function (){
+	if(onOff){
+		oImg.src='img/4.jpg';
+		onOff=false;
+		} else {
+		oImg.src='img/2.jpg';
+		onOff=true;
+			}
+	}
+</script>
+
+</body>
+</html>
