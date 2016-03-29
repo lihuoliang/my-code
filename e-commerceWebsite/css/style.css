@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+/*样式重置(reset)*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin:0;padding:0;}
+em{font-style:normal;}/*斜体字扶正*/
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;vertical-align:top;}/*a标签中的图片边框去除，垂直向上对齐*/
+table{border-collapse:collapse;}/*表格边框之间的间隙崩塌掉*/
+input,textarea{outline:none;}/*有问题需查询*/
+textarea{resize:none;overflow:auto;}/*有问题需查询*/
+body{font-size:12px;font-family:"微软雅黑";}
+
+/*public*/
+.clear{
+	zoom:1;
+	}
+.clear:after{
+	content:'';
+	display:block;
+	clear:both;
+	}
+.fl{
+   float:left;
+	}
+.fr{
+	float:right;
+	}
+.gradient{
+	background:-moz-linear-gradient(top,#ffffff,#f8f8f8);
+	background:-webkit-linear-gradient(top,#ffffff,#f8f8f8);
+	background:-ms-linear-gradient(top,#ffffff,#f8f8f8);
+	background:linear-gradient(top,#ffffff,#f8f8f8);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f8f8f8)";
+	+background:#f9f9f9;
+	}	
+/*layout*/
+body{margin-bottom:30px;}
+#header{width:960px;height:30px;margin:0 auto;border-radius:0 0 6px 6px;}
+#nav{width:960px;height:100px;margin:0 auto;background:#ffc;}
+#search{width:958px;height:114px;margin:0 auto;border:1px solid #dbdbdb;border-radius:6px;margin-bottom:10px;}
+#search .bar{}
+.content{width:960px;margin:0 auto;}
+.main{width:710px;}
+.section{width:318px;height:200px;padding:0 15px;border:1px solid #dbdbdb;border-radius:6px;margin-bottom:10px;}
+.options{width:350px;height:200px;background:#ff9;}
+.main_ad{margin-bottom:10px;border-radius:6px;overflow:hidden;}/*圆角溢出隐藏*/
+.side{width:240px;}
+.side_section{height:60px;border:1px solid #dbdbdb;border-radius:6px;margin-bottom:10px;}
+.side_ad{border-radius:6px;overflow:hidden;margin-bottom:10px;}
+#footer{width:958px;height:78px;margin:0 auto;border:1px solid #dbdbdb;background:#f9f9f9;border-radius:6px;}
